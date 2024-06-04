@@ -4,7 +4,7 @@ import re
 import requests
 
 S2_API_KEY = os.getenv('S2_API_KEY')
-result_limit = 10
+result_limit = 10    # Limit the results to 10 papers.
 
 
 def main():
